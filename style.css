@@ -22,17 +22,18 @@ body {
 }
 
 .heading {
-  position: relative;
-  top: -0.5em;
-  font-size: 3rem;
+  position: absolute;
+  top: 0.1em;
+  transform: translateX(-50%);
+  font-size: 4rem;
   text-decoration: underline;
 }
 
 #image {
   position: absolute;
-  top: 0.5em;
-  transform: translateX(12rem);
-  width: 3.75rem;
+  top: 2.5em;
+  transform: translateX(16rem);
+  width: 5.75rem;
 }
 
 .quote-container {
@@ -124,8 +125,8 @@ button:active {
 }
 
 footer {
-  position: absolute;
-  top: 53rem;
+  position: relative;
+  top: auto;
 }
 
 /* Media Query: Tablet or Smaller */
@@ -136,5 +137,31 @@ footer {
 
   .quote-text {
     font-size: 2.5rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  #image {
+    top: 1.5em;
+    transform: translateX(8rem);
+    width: 2.75rem;s
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .quote-text {
+    font-size: 1.25rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  #image {
+    top: 1.5em;
+    transform: translateX(6rem);
+    width: 1.75rem;
   }
 }
