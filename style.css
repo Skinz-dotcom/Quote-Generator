@@ -22,18 +22,17 @@ body {
 }
 
 .heading {
-  position: absolute;
-  top: 1.5em;
-  transform: translateX(-50%);
-  font-size: 4rem;
+  position: relative;
+  top: -0.5em;
+  font-size: 3rem;
   text-decoration: underline;
 }
 
 #image {
   position: absolute;
-  top: 7.5em;
-  transform: translateX(16rem);
-  width: 5.75rem;
+  top: 0.5em;
+  transform: translateX(12rem);
+  width: 3.75rem;
 }
 
 .quote-container {
